@@ -48,5 +48,7 @@ namespace FootballClub.Models
 
         [Column(TypeName = "varchar"), Display(Name = "Image")]
         public string image { get; set; }
+
+        public IEnumerable<Coach> Coaches { get; set; }
     }
 }
