@@ -14,6 +14,6 @@ namespace FootballClub.Models
         }
 
         virtual public DbSet<Signup> signups { get; set; }
-        virtual public DbSet<Player> players { get; set; }
+       
     }
 }
